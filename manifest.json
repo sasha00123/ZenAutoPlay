@@ -1,0 +1,19 @@
+{
+    "name": "Yandex Zen autoplay enabler",
+    "version": "1.0",
+    "description": "Just install & create articles",
+    "manifest_version": 2,
+    "permissions": [
+	"webRequest",
+	"https://zenautoplay.ru/",
+	"https://*.yandex.ru/",
+	"https://yandex.ru/",
+	"webRequestBlocking",
+	"tabs",
+	"cookies"
+	],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    }
+}
